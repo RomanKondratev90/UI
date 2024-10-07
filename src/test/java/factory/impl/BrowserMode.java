@@ -1,2 +1,7 @@
-package factory.impl;public class BrowserMode {
+package factory.impl;
+
+public enum BrowserMode {
+    headless,
+    kiosk,
+    fullscreen
 }

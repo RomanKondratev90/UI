@@ -1,5 +1,7 @@
 package factory.impl;
 
-public interface iWebDriver {
-    
+import org.openqa.selenium.remote.AbstractDriverOptions;
+
+public interface iWebDriverSettings {
+    AbstractDriverOptions setting();
 }
