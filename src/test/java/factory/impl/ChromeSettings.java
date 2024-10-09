@@ -25,7 +25,7 @@ public class ChromeSettings implements iWebDriverSettings {
                 chromeOptions.addArguments("--start-fullscreen");
                 break;
             default:
-                throw new IllegalArgumentException("Unsupported browser mode: " + mode);
+                throw new IllegalArgumentException("Неподдерживаемый режим браузера: " + mode);
         }
         return chromeOptions;
     }
