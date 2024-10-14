@@ -17,6 +17,8 @@
         <webdriver.version>5.9.2</webdriver.version>
         <junit.version>5.11.2</junit.version>
         <assertj.version>3.26.3</assertj.version>
+        <log4j-api.version>2.20.0</log4j-api.version>
+        <log4j-core.version>2.20.0</log4j-core.version>
 
         <!--Версии плагинов-->
         <compiler.version>3.13.0</compiler.version>
@@ -53,6 +55,21 @@
             <artifactId>assertj-core</artifactId>
             <version>${assertj.version}</version>
         </dependency>
+
+        <!--Log4j2 API-->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>${log4j-api.version}</version>
+        </dependency>
+
+        <!--Log4j2 Core-->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4j-core.version}</version>
+        </dependency>
+
 
     </dependencies>
 
