@@ -1,5 +1,6 @@
 package tests.modalWindow;
 
+import components.ModalWindowVerifier;
 import factory.WebDriverFactory;
 import factory.impl.BrowserMode;
 import factory.impl.ChromeSettings;
@@ -44,12 +45,10 @@ public class CheckingModalWindow {
         public void shouldCheckModalWindow() {
             ChromeSettings settings = new ChromeSettings(BrowserMode.KIOSK);
             driver = factory.getDriver(settings);
-
             driver.get(baseUrl);
-            WebElement modal = driver.findElement(By.id("myModal"));
-            Assertions.assertFalse(modal.isDisplayed(), "Модальное окно необходимо закрыть");
 
-            logger.info("Модальное окно закрыто перед тестом");
+            ModalWindowVerifier.verifyModalIsClosed(driver, "myModal");
+
             driver.findElement(By.id("openModalBtn")).click();
             logger.info("Модальное окно открыто");
             WebElement element = driver.findElement(By.xpath("//div[@class='modal-content']//h2"));
