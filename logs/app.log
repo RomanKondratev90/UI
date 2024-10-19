@@ -1,0 +1,47 @@
+2024-10-14 20:42:22 INFO  WebDriverManager:1220 - Using chromedriver 129.0.6668.100 (resolved driver for Chrome 129)
+2024-10-14 20:42:22 INFO  WebDriverManager:1282 - Exporting webdriver.chrome.driver as C:\Users\Roman\.cache\selenium\chromedriver\win64\129.0.6668.100\chromedriver.exe
+2024-10-14 20:42:23 INFO  MainPage_Test:50 - Это сообщение уровня INFO
+2024-10-14 20:51:03 INFO  MainPage_Test:48 - Это сообщение уровня INFO
+2024-10-14 20:55:13 INFO  MainPage_Test:48 - Введен текст "ОТУС"
+2024-10-14 20:55:13 INFO  MainPage_Test:52 - Тест успешно завершен
+2024-10-14 20:58:32 INFO  MainPage_Test:60 - Модальное окно открыто
+2024-10-14 20:58:32 INFO  MainPage_Test:64 - Текст в модальном окне "Это модальное окно"
+2024-10-14 20:59:57 INFO  MainPage_Test:81 - Форма отправлена с именем: Роман и email: 1@mail.ru
+2024-10-14 21:00:48 INFO  MainPage_Test:77 - В поле ввода введено Роман и 1@mail.ru
+2024-10-14 21:00:48 INFO  MainPage_Test:82 - Форма отправлена с именем: Роман и email: 1@mail.ru
+2024-10-14 21:04:56 INFO  MainPage_Test:47 - Введен текст "ОТУС"
+2024-10-14 21:04:56 INFO  MainPage_Test:49 - В поле текст "ОТУС"
+2024-10-14 21:06:41 INFO  MainPage_Test: - Введен текст "ОТУС"
+2024-10-14 21:06:41 INFO  MainPage_Test: - В поле текст "ОТУС"
+2024-10-14 21:07:17 INFO  MainPage_Test: Модальное окно открыто
+2024-10-14 21:07:17 INFO  MainPage_Test: Текст в модальном окне "Это модальное окно"
+2024-10-14 21:14:32 INFO  MainPage_Test: Введен текст "ОТУС"
+2024-10-14 21:14:32 INFO  MainPage_Test: В поле текст "ОТУС"
+2024-10-14 21:14:33 INFO  MainPage_Test: Модальное окно открыто
+2024-10-14 21:14:33 INFO  MainPage_Test: Текст в модальном окне "Это модальное окно"
+2024-10-14 21:14:34 INFO  MainPage_Test: В поле ввода введено Роман и 1@mail.ru
+2024-10-14 21:14:34 INFO  MainPage_Test: Форма отправлена с именем: Роман и email: 1@mail.ru
+2024-10-19 10:03:17 INFO  FieldValidation: Введен текст "ОТУС"
+2024-10-19 10:03:17 INFO  FieldValidation: Текст в поле: "ОТУС"
+2024-10-19 10:03:50 INFO  SendingData: В поле ввода введено Роман и 1@mail.ru
+2024-10-19 10:03:50 INFO  SendingData: Форма отправлена с именем: Роман и email: 1@mail.ru
+2024-10-19 10:09:24 INFO  CheckingModalWindow: Модальное окно открыто
+2024-10-19 10:09:24 INFO  CheckingModalWindow: Текст в модальном окне: "Это модальное окно"
+2024-10-19 10:13:01 INFO  CheckingModalWindow: Модальное окно закрыто перед тестом.
+2024-10-19 10:14:48 INFO  CheckingModalWindow: Модальное окно открыто
+2024-10-19 10:14:48 INFO  CheckingModalWindow: Текст в модальном окне: "Это модальное окно"
+2024-10-19 10:18:00 INFO  CheckingModalWindow: Модальное окно открыто
+2024-10-19 10:18:00 INFO  CheckingModalWindow: Текст в модальном окне: "Это модальное окно"
+2024-10-19 10:18:47 INFO  CheckingModalWindow: Модальное окно закрыто перед тестом
+2024-10-19 10:18:47 INFO  CheckingModalWindow: Модальное окно открыто
+2024-10-19 10:18:47 INFO  CheckingModalWindow: Текст в модальном окне: "Это модальное окно"
+2024-10-19 10:21:09 INFO  CheckingModalWindow: Модальное окно закрыто перед тестом
+2024-10-19 10:21:09 INFO  CheckingModalWindow: Модальное окно открыто
+2024-10-19 10:21:09 INFO  CheckingModalWindow: Текст в модальном окне: "Это модальное окно"
+2024-10-19 10:22:44 INFO  FieldValidation: Введен текст "ОТУС"
+2024-10-19 10:22:44 INFO  FieldValidation: Текст в поле: "ОТУС"
+2024-10-19 10:22:54 INFO  CheckingModalWindow: Модальное окно закрыто перед тестом
+2024-10-19 10:22:54 INFO  CheckingModalWindow: Модальное окно открыто
+2024-10-19 10:22:54 INFO  CheckingModalWindow: Текст в модальном окне: "Это модальное окно"
+2024-10-19 10:23:03 INFO  SendingData: В поле ввода введено Роман и 1@mail.ru
+2024-10-19 10:23:03 INFO  SendingData: Форма отправлена с именем: Роман и email: 1@mail.ru

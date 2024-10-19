@@ -15,13 +15,13 @@ public class ChromeSettings implements iWebDriverSettings {
     public AbstractDriverOptions setting() {
         ChromeOptions chromeOptions = new ChromeOptions();
         switch (mode) {
-            case headless:
+            case HEADLESS:
                 chromeOptions.addArguments("--headless");
                 break;
-            case kiosk:
+            case KIOSK:
                 chromeOptions.addArguments("--kiosk");
                 break;
-            case fullscreen:
+            case FULLSCREEN:
                 chromeOptions.addArguments("--start-fullscreen");
                 break;
             default:
