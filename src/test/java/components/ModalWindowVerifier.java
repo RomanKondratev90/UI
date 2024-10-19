@@ -14,7 +14,7 @@ public class ModalWindowVerifier {
 
     public static void verifyModalIsClosed(WebDriver driver, String modalId) {
         WebElement modal = driver.findElement(By.id(modalId));
-        Assertions.assertFalse(modal.isDisplayed(), "Модальное окно должно быть закрыто");
+        Assertions.assertFalse(modal.isDisplayed(), "Ошибка: модальное окно открыто");
     }
 }
 
